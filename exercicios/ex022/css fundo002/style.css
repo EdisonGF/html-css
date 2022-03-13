@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+h1{
+    color: crimson;
+    background-color: black;
+}
+
+body{
+    background-image: url(https://www.iped.com.br/_upload/content/2015/09/02/cuidados-basicos-cabelos.jpg);
+    background-size: 1024px 1024px;
+    background-repeat: no-repeat;
+}

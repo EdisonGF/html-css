@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url(https://img.wattpad.com/cover/167857413-352-k607552.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

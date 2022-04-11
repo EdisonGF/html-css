@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgoldenrod;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr.linhaimpar{
+
+    background-color: darkcyan;
+}
+
+tr.linhapar{
+
+    background-color: cornflowerblue;
+
+}
+
+
+
+td {
+
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

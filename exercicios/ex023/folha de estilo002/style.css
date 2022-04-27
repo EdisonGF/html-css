@@ -3,6 +3,7 @@
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption{
@@ -11,6 +12,36 @@ caption{
     padding: 10px;
     background-color: lightgrey;
 }
+
+thead {
+
+    background-color:cadetblue ;
+}
+ thead >tr > th {
+
+    position: sticky;
+    top: -1px;
+    background-color:cadetblue ;
+    
+ }
+
+tbody > tr:nth-child(odd){
+
+    /*criando efeito zebrado na linha impar da tabela */
+
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+tbody >tr:nth-child(even) {
+
+    /*criando efeito zebrado na linha par da tabela */
+
+    background-color: lightgreen;
+
+
+}
+
 
 td,th {
 
@@ -26,7 +57,7 @@ td.num {
     text-align: right;
 }
 
-thead, tfoot{
+tfoot{
     background-color: cadetblue;
     
 }

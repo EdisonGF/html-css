@@ -1,0 +1,27 @@
+@charset "utf-8";
+main {
+
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 161, 65);
+    width: 75%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+footer {
+
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(168, 161, 65) ;
+    width: 77%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
